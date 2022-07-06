@@ -10,18 +10,130 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      1064,         39]
-NotebookOptionsPosition[       708,         25]
-NotebookOutlinePosition[      1115,         41]
-CellTagsIndexPosition[      1072,         38]
+NotebookDataLength[      4993,        155]
+NotebookOptionsPosition[      4412,        137]
+NotebookOutlinePosition[      4819,        153]
+CellTagsIndexPosition[      4776,        150]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-Cell["", "Text",
- CellChangeTimes->{{3.8661378078960547`*^9, 
-  3.8661378156206036`*^9}},ExpressionUUID->"21cb545b-112f-49e5-b10e-\
-42abf000c124"]
+Cell[TextData[Cell[BoxData[GridBox[{
+   {"Big", "\[SpanFromLeft]", "\[SpanFromLeft]", "Small", "\[SpanFromLeft]", 
+    "\[SpanFromLeft]"},
+   {"Factor", "Name", "Symbol", "Factor", "Name", "Symbol"},
+   {
+    SuperscriptBox["10", "3"], "kilo", "k", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "3"}]], "milli", "m"},
+   {
+    SuperscriptBox["10", "6"], "mega", "M", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "6"}]], "micro", "\[Mu]"},
+   {
+    SuperscriptBox["10", "9"], "giga", "G", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "9"}]], "nano", "n"},
+   {
+    SuperscriptBox["10", "12"], "tera", "T", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "12"}]], "pico", "p"},
+   {
+    SuperscriptBox["10", "15"], "peta", "P", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "15"}]], "femto", "f"},
+   {
+    SuperscriptBox["10", "18"], "exa", "E", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "18"}]], "atto", "a"},
+   {
+    SuperscriptBox["10", "21"], "zetta", "Z", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "21"}]], "zepto", "z"},
+   {
+    SuperscriptBox["10", "24"], "yotta", "Y", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "24"}]], "yocto", "y"},
+   {
+    SuperscriptBox["10", "27"], "ronna", "R", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "27"}]], "ronto", "r"},
+   {
+    SuperscriptBox["10", "30"], "quetta", "Q", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "30"}]], "quecto", "q"}
+  },
+  GridBoxDividers->{
+   "Columns" -> {{True}}, 
+    "Rows" -> {{
+      True}}}]],ExpressionUUID->"713b24de-9942-4ca1-a572-02fb61bf83ed"]], \
+"Text",
+ CellChangeTimes->{{3.8661378078960547`*^9, 3.8661378156206036`*^9}, {
+  3.8661379331807456`*^9, 
+  3.8661381426007605`*^9}},ExpressionUUID->"21cb545b-112f-49e5-b10e-\
+42abf000c124"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{
+  "\"\<C:\\\\Users\\\\peter\\\\Documents\\\\GitHub\\\\wordpress-tables\\\\\
+prefix table.csv\>\"", ",", GridBox[{
+     {"Big", "\[SpanFromLeft]", "\[SpanFromLeft]", "Small", "\[SpanFromLeft]",
+       "\[SpanFromLeft]"},
+     {"Factor", "Name", "Symbol", "Factor", "Name", "Symbol"},
+     {
+      SuperscriptBox["10", "3"], "kilo", "k", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "3"}]], "milli", "m"},
+     {
+      SuperscriptBox["10", "6"], "mega", "M", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "6"}]], "micro", "\[Mu]"},
+     {
+      SuperscriptBox["10", "9"], "giga", "G", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "9"}]], "nano", "n"},
+     {
+      SuperscriptBox["10", "12"], "tera", "T", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "12"}]], "pico", "p"},
+     {
+      SuperscriptBox["10", "15"], "peta", "P", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "15"}]], "femto", "f"},
+     {
+      SuperscriptBox["10", "18"], "exa", "E", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "18"}]], "atto", "a"},
+     {
+      SuperscriptBox["10", "21"], "zetta", "Z", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "21"}]], "zepto", "z"},
+     {
+      SuperscriptBox["10", "24"], "yotta", "Y", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "24"}]], "yocto", "y"},
+     {
+      SuperscriptBox["10", "27"], "ronna", "R", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "27"}]], "ronto", "r"},
+     {
+      SuperscriptBox["10", "30"], "quetta", "Q", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "30"}]], "quecto", "q"}
+    },
+    GridBoxDividers->{"Columns" -> {{True}}, "Rows" -> {{True}}}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.8661381462127438`*^9, 3.866138180170283*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"cd295428-652d-40d3-99d8-8a140b4df3d6"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\peter\\\\Documents\\\\GitHub\\\\wordpress-\
+tables\\\\prefix table.csv\"\>"], "Output",
+ CellChangeTimes->{3.8661381821262913`*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"b4b6d953-e3ea-47bc-afbe-4ab004748431"]
+}, Open  ]]
 },
 WindowSize->{571.8, 524.4},
 WindowMargins->{{284.4, Automatic}, {Automatic, 32.4}},
@@ -40,7 +152,11 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 146, 3, 35, "Text",ExpressionUUID->"21cb545b-112f-49e5-b10e-42abf000c124"]
+Cell[558, 20, 1725, 53, 292, "Text",ExpressionUUID->"21cb545b-112f-49e5-b10e-42abf000c124"],
+Cell[CellGroupData[{
+Cell[2308, 77, 1843, 52, 321, "Input",ExpressionUUID->"cd295428-652d-40d3-99d8-8a140b4df3d6"],
+Cell[4154, 131, 242, 3, 52, "Output",ExpressionUUID->"b4b6d953-e3ea-47bc-afbe-4ab004748431"]
+}, Open  ]]
 }
 ]
 *)
